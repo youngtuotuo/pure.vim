@@ -111,7 +111,7 @@ hi CursorColumn guibg=#2c2e33
 hi Identifier guifg=#a6dbff ctermfg=12
 hi Operator guifg=#e0e2ea
 hi Delimiter guifg=#e0e2ea
-hi Todo guifg=#e0e2ea cterm=bold gui=bold
+hi Todo ctermfg=NONE ctermbg=NONE cterm=bold gui=bold guibg=NONE guifg=NONE
 hi Added guifg=#b3f6c0 ctermfg=10
 hi WarningMsg guifg=#fce094 ctermfg=11
 hi Removed guifg=#ffc0b9 ctermfg=9
