@@ -78,8 +78,8 @@ hi SignColumn guifg=#4f5258
 hi link CursorLineFold FoldColumn
 hi link FoldColumn SignColumn
 hi Question guifg=#8cf8f7 ctermfg=14
-hi StatusLine guifg=#2c2e33 guibg=#c4c6cd cterm=reverse
-hi StatusLineNC guifg=#c4c6cd guibg=#2c2e33 cterm=bold,underline
+hi StatusLine guifg=#2c2e33 guibg=#c4c6cd cterm=bold gui=bold
+hi StatusLineNC guifg=#c4c6cd guibg=#2c2e33 cterm=NONE gui=NONE
 hi link WinSeparator Normal
 hi link VertSplit WinSeparator
 hi Visual guibg=#4f5258 ctermfg=0 ctermbg=15
